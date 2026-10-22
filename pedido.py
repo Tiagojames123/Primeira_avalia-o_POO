@@ -17,3 +17,10 @@ def calcular_desconto(subtotal, cupom):
      if cupom == "sim":
         return subtotal * 0.10
     return 0
+
+def classificar_pedido(subtotal):
+    """Classifica o pedido pelo subtotal (antes do desconto):
+    pequeno (até 30), médio (acima de 30 até 100) ou grande (acima de 100)."""
+    if subtotal <= 30:
+        return "Pedido pequeno"
+    elif subtotal <= 100:
