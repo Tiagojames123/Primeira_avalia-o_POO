@@ -33,3 +33,5 @@ produto = "Hambúrguer"
 quantidade = 3
 preco_unitario = 25.0
 cupom = "SIM"
+
+cupom = cupom.lower()
