@@ -27,3 +27,9 @@ def classificar_pedido(subtotal):
         return "Pedido médio"
     else:
         return "Pedido grande"
+
+nome = "Felipe"
+produto = "Hambúrguer"
+quantidade = 3
+preco_unitario = 25.0
+cupom = "SIM"
